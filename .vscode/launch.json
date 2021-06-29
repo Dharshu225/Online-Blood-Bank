@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch UserController",
+            "request": "launch",
+            "mainClass": "com.dharshiny.onlinebloodbank.Controller.UserController",
+            "projectName": "online-blood-bank"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-OnlineBloodBankApplication<online-blood-bank>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.dharshiny.onlinebloodbank.OnlineBloodBankApplication",
+            "projectName": "online-blood-bank",
+            "args": ""
+        }
+    ]
+}

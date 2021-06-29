@@ -1,0 +1,20 @@
+.userhomeheader{
+    margin:5px;
+    background-color: saddlebrown;
+    color: beige;
+    text-align: center;
+    padding:35px;
+    min-width: 1200px;
+    max-width: 1500px;
+}
+.userhomeheader h1{
+    color: beige;
+}
+.userhomeheader a, .userhomeheadera:hover{
+    margin: 5px;
+    margin-left:20px;
+    color:beige;
+    float: right;
+    cursor:pointer;
+    text-decoration: none;
+}

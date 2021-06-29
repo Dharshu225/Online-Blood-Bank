@@ -1,0 +1,112 @@
+.loginbody{
+    padding:20px;
+    padding-bottom: 30px;
+    margin: 10px;
+    background-color:beige;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 700px;
+    max-width:750px;
+    display: flex;
+}
+h4, h1{
+    text-align: center;
+    color:SaddleBrown;
+}
+h1,.header h4{
+    margin:20px;
+}
+p{  
+    text-align: center;
+    font-size: 16px;
+    color: red;
+}
+.user_container,.admin_container{
+    text-align: left;
+    width:45%;
+    margin:10px
+}
+.admin_container{
+    float:right;
+    margin-left: 40px;
+}
+.user_container{
+    margin-right: 40px;
+}
+.newUser{
+    float:right;
+}
+.vl{
+    border-left: 2px solid saddlebrown;
+}
+.addSample{
+    margin-top: 10px;
+    margin-right: 10px;
+    color: beige;
+    background-color: dodgerblue;
+    padding:5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.donar,.donaruser{
+    background-color: beige;
+    min-width:900px;
+    max-width: 900px;
+    padding:10px;
+    margin:15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.donaruser{
+    margin-left: auto;
+    margin-right: auto;
+}
+.donar td{
+    width:30%;
+    padding:10px;
+}
+.donardetails{
+    cursor: pointer;
+    text-decoration: underline;
+    color: saddlebrown;
+    background-color: beige;
+    border: none;
+    font-size: large;
+}
+.link{
+    cursor: pointer;
+    text-decoration: underline;
+    color: darkblue;
+    background-color: beige;
+    border: none;
+    font-size: 15px;
+}
+.body{
+    min-width:1200px;
+    max-width:1500px;
+}
+.body h3{
+    margin:15px;
+    color: saddlebrown;
+    text-align: center;
+}
+.donaruser td{
+    width: 35%;
+    padding:10px;
+}
+.user td{
+    padding:10px;    
+    border: 1px solid burlywood;
+}
+.userlist{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid burlywood;
+}
+.userlist th{
+    padding:10px;
+    background-color: beige;
+    border: 1px solid burlywood;
+}

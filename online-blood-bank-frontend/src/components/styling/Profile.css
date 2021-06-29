@@ -1,0 +1,43 @@
+.profile{
+    background-color: beige;
+    min-width: 500px;
+    max-width: 600px;
+    margin:15px;
+    padding:15px;
+    padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-right: 20px;
+    width:80%;
+}
+.profile td,th{
+    padding:10px;
+}
+.profile th{
+    width:25%;
+}
+.profile td{
+    width:40%
+}
+.updateButton,.back{
+    margin-top: 5px;
+    padding:5px;
+    width:60px;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    float: right;
+}
+.updateButton{
+    margin-right: 30px;
+}
+.back{
+    margin-right: 40px;
+}
