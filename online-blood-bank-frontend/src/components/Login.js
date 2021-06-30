@@ -118,7 +118,7 @@ function Login(){
                         </Form.Group>
                         <Form.Group controlId="apassword">
                             <Form.Label>Password</Form.Label>
-                            <Form.Control type={show ? 'text' : "password"} value={apassword} 
+                            <Form.Control type={ashow ? 'text' : "password"} value={apassword} 
                                 onChange={(e)=>{setApassword(e.target.value)}}
                             />
                         </Form.Group>
