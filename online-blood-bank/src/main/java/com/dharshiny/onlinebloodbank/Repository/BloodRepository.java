@@ -12,6 +12,6 @@ import org.springframework.transaction.annotation.Transactional;
 public interface BloodRepository extends JpaRepository<Blood,String>{
     @Transactional
     @Modifying
-    @Query(value="DELETE from librarymanagement.blooddonar where ddate < DATE_SUB( NOW(),INTERVAL 90 DAY)", nativeQuery=true)
+    @Query(value="DELETE from onlinebloodbank.blooddonar where ddate < DATE_SUB( NOW(),INTERVAL 90 DAY)", nativeQuery=true)
     void deleteOldSamples();
 }
